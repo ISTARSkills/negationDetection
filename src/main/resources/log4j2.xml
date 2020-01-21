@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="%d{dd MMM yyyy HH:mm:ss.SSS} [%-5level] [%logger{36}:%L] - %msg %n" />
+		</Console>
+	</Appenders>
+	<Loggers>
+		<Root level="ERROR">
+			<AppenderRef ref="Console" />
+		</Root>
+		<Logger name="ai.salesken" level="ALL" additivity="false">
+			<AppenderRef ref="Console" />
+		</Logger>
+	</Loggers>
+</Configuration>

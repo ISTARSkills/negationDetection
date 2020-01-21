@@ -1,0 +1,5 @@
+/target/
+/.settings/
+src/main/webapp/WEB-INF/lib/stanford-english-corenlp-2018-10-05-models.jar
+.classpath
+.project
