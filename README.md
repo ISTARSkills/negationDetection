@@ -4,7 +4,7 @@ A web project to detect negation
 ## Installation
 
 * Download the model from [here](http://nlp.stanford.edu/software/stanford-english-corenlp-2018-10-05-models.jar)
-and place it in src/main/webapp/WEB-INF/lib/ folder.
+and place it in src/main/webapp/WEB-INF/lib/` folder.
 
 * Add the downloaded jar to the build path
 
